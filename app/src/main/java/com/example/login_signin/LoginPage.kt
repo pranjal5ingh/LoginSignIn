@@ -33,19 +33,7 @@ class LoginPage : AppCompatActivity() {
         ActivityLoginPageBinding.inflate(layoutInflater)
     }
 
-//    override fun onStart() {
-//        super.onStart()
-//
-//        // Check if the user is already signed in
-//        Handler(Looper.getMainLooper()).postDelayed({
-//            val currentUser: FirebaseUser? = auth.currentUser
-//            if (currentUser != null) {
-//                // User is signed in → go to HomePage
-//                startActivity(Intent(this, HomePage::class.java))
-//            }
-//            finish() // Close SplashActivity so that the user can't navigate back to it
-//        }, 2000) // Splash screen delay (2 seconds)
-//    }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
